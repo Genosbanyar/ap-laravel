@@ -2,6 +2,7 @@
 
 @section('contant')
     <div class="container" style="margin-top:25px">
+        <a class="btn btn-success mb-3" href="add_post">Add new post</a>
         @foreach ($datas as $data)
             <div class="card">
                 <div class="card-header" style="text-align:center">
