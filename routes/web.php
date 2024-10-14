@@ -13,4 +13,4 @@ use App\Http\Controllers\HomeController;
 |
 */
 
-Route::resource('/',HomeController::class);
+Route::resource('posts',HomeController::class);
